@@ -26,6 +26,66 @@ body {
 }
 .feat {
   border-radius: 4px;
-  background-color: aliceblue;
-  border: solid 1px red;
+  background-color: white;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.44);
+  padding: 24px;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.feat .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ef7178;
+}
+.feat .logo svg {
+  width: 30px;
+}
+.feat .logo svg path {
+  fill: #ffff;
+}
+.feat .logo__azul {
+  background-color: #72cee9;
+}
+.feat .logo__naranja {
+  background-color: #eea856;
+}
+.feat .logo__verde {
+  background-color: #67b54b;
+}
+.feat-link {
+  color: #77bd5f;
+  font-weight: 600;
+  font-size: 14px;
+}
+.feat-link::after {
+  content: " ->";
+  color: #77bd5f;
+}
+.feat-link:hover {
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: underline;
+}
+.feat-content {
+  width: 50%;
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 16px;
+}
+.feat-img {
+  object-fit: cover;
+  max-height: 223px;
+  border-radius: 5px 0 0 5px;
+  width: 40%;
+}
+.feat-body-text {
+  color: #c6c6c6;
+}
+.feat-title {
+  font-weight: 400;
 }
