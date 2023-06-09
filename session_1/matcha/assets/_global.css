@@ -1,0 +1,12 @@
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: calc(50% - 8px);
+}
+.w-30 {
+  width: calc(30% - 8px);
+}
+.is-bold {
+  font-weight: 600px !important;
+}
