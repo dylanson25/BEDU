@@ -1,0 +1,26 @@
+.bones .main {
+  padding: 16px;
+}
+.retos {
+  margin: auto;
+  height: 80%;
+  width: 80%;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.44);
+}
+.retos {
+  display: grid;
+  height: 660px;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); */
+}
+
+.features_1 {
+  background: #ef7178;
+}
+.features_2 {
+  background: #72cee9;
+}
+.features_3 {
+  background: #eea856;
+}
