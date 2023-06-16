@@ -1,0 +1,22 @@
+.title-1 {
+  font-size: 60px;
+}
+.title-2 {
+  font-size: 4rem;
+}
+.text-md-center {
+  text-align: center;
+}
+.media-main-video .video {
+  width: 100%;
+  order: 3;
+  max-width: 700px;
+}
+.container-info {
+  order: 1;
+  max-width: 700px;
+}
+.field-input {
+  order: 2;
+  max-width: 700px;
+}
