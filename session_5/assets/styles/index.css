@@ -224,7 +224,7 @@ input {
   display: grid;
   place-content: center;
   max-width: 1270px;
-  min-width: 100%;
+  width: 100%;
   gap: 32px;
   grid-template-columns: repeat(auto-fit, minmax(300px, calc(50% - 16px)));
   margin: auto;
