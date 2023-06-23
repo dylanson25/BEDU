@@ -12,8 +12,20 @@
     transform: translate3d(0, 0, 0);
   }
 }
+@keyframes flyLeft {
+  from {
+    right: 100%;
+  }
+  to {
+    right: 0;
+  }
+}
 .fadeUpBig {
   animation-name: fadeUpBig;
+}
+
+.flyLeft {
+  animation-name: flyLeft;
 }
 
 .animated {
@@ -46,4 +58,15 @@
 }
 .card:hover {
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.44);
+}
+
+.nave {
+  z-index: 10000;
+  right: 0;
+  top: -150px;
+  animation-duration: 4s;
+  rotate: 90deg;
+  width: 200px;
+  height: auto;
+  position: absolute;
 }/*# sourceMappingURL=index.css.map */
